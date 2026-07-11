@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Update the domain below if the site ships on a different host.
+Sitemap: https://www.rejewels.com/sitemap.xml

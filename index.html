@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ré Jewels — Fine Diamond & Gemstone Jewellery · Wholesale</title>
+<meta name="description" content="Ré Jewels — manufacturer, exporter and supplier of fine diamond and gemstone jewellery for wholesale buyers worldwide since 2005." />
+<meta name="theme-color" content="#19150F" />
+
+<!-- Canonical: update the domain if the site ships on a different host -->
+<link rel="canonical" href="https://www.rejewels.com/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Ré Jewels" />
+<meta property="og:title" content="Ré Jewels — Fine Diamond & Gemstone Jewellery · Wholesale" />
+<meta property="og:description" content="Manufacturer, exporter and supplier of fine diamond and gemstone jewellery for wholesale buyers worldwide since 2005. Opera House, Mumbai." />
+<meta property="og:url" content="https://www.rejewels.com/" />
+<meta property="og:image" content="https://www.rejewels.com/assets/catalogue/necklaces-1.jpg" />
+<meta property="og:image:alt" content="Fine diamond necklace by Ré Jewels" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ré Jewels — Fine Diamond & Gemstone Jewellery · Wholesale" />
+<meta name="twitter:description" content="Manufacturer, exporter and supplier of fine diamond and gemstone jewellery for wholesale buyers worldwide since 2005." />
+<meta name="twitter:image" content="https://www.rejewels.com/assets/catalogue/necklaces-1.jpg" />
+
+<!-- Favicons (derived from assets/logo-mark-color.png) -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ====================== HEADER ====================== -->
+<header class="header is-light" id="header">
+  <div class="container header__bar">
+    <a href="#top" class="brand" id="brandHome" aria-label="Ré Jewels — home">
+      <img class="brand__logo brand__logo--cream" src="assets/logo-mark-cream.png" alt="Ré Jewels" />
+      <img class="brand__logo brand__logo--color" src="assets/logo-mark-color.png" alt="" aria-hidden="true" />
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li class="nav__item has-menu">
+          <a href="#about" class="nav__link">About Us <span class="caret"></span></a>
+          <div class="menu" role="menu">
+            <a class="menu__link" href="#why" role="menuitem"><span class="dot"></span>Our Strengths</a>
+            <a class="menu__link" href="#about" role="menuitem"><span class="dot"></span>Manufacturing</a>
+            <a class="menu__link" href="#about" role="menuitem"><span class="dot"></span>IGI Certificate</a>
+          </div>
+        </li>
+        <li class="nav__item has-menu">
+          <a href="#collections" class="nav__link">Catalogue <span class="caret"></span></a>
+          <div class="menu menu--mega" role="menu">
+            <div class="mega__head">
+              <h4>Our Collections</h4>
+              <span>12 Categories</span>
+            </div>
+            <div class="mega__grid" id="megaGrid"><!-- JS fills --></div>
+          </div>
+        </li>
+        <li class="nav__item"><a href="#collections" class="nav__link">Jewellery Guide</a></li>
+        <li class="nav__item"><a href="#customise" class="nav__link">Customization</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Get in Touch</a></li>
+      </ul>
+      <div class="nav__cta">
+        <a href="#contact" class="btn btn--gold btn--sm">Request Catalogue</a>
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ====================== HERO ====================== -->
+<section class="hero" id="top">
+  <div class="hero__img">
+    <div class="slides" data-slideshow="5000">
+      <img src="assets/catalogue/necklaces-1.jpg" alt="Fine diamond necklace by Ré Jewels" fetchpriority="high" />
+      <img src="assets/catalogue/necklaces-2.jpg" alt="" aria-hidden="true" />
+      <img src="assets/catalogue/necklaces-3.jpg" alt="" aria-hidden="true" />
+      <img src="assets/catalogue/necklaces-4.jpg" alt="" aria-hidden="true" />
+    </div>
+  </div>
+  <div class="hero__veil"></div>
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="display display--xl">Crafting Your<span class="ital">Curiosity</span></h1>
+      <p class="hero__sub">Fine diamond jewellery — manufactured and supplied to retail partners since 2005.</p>
+      <div class="hero__cta">
+        <a href="#collections" class="btn btn--gold">Browse Catalogue <span class="arr">→</span></a>
+        <a href="#contact" class="btn btn--ghost-light">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+  <div class="container hero__meta">
+    <span class="l">Mumbai, India</span>
+    <span class="scroll-cue">Scroll <i></i></span>
+    <span class="r">Diamond &amp; Gemstone</span>
+  </div>
+</section>
+
+<!-- ====================== WHO WE ARE ====================== -->
+<section class="section" id="about">
+  <div class="container about">
+    <div class="about__copy reveal">
+      <span class="eyebrow">Who We Are</span>
+      <h2>A vertically integrated house of fine jewellery.</h2>
+      <p>Ré Jewels is a jewellery manufacturing company founded in 2005 by <em class="gold">Mr.&nbsp;Rajeev Jain</em>. We work with our in-house karigars to produce the finest jewellery. We strive to deliver quality products to retailers all over India and abroad.</p>
+      <p>Our strengths lie in our in-house manufacturing and on-time deliveries — keeping in mind the high standards of finishing required for every piece.</p>
+      <div class="signature">
+        <span class="signature__name">Rajeev Jain</span>
+        <span class="signature__role">Founder &amp; Director</span>
+      </div>
+    </div>
+    <div class="stats reveal reveal-d1">
+      <div class="stat">
+        <span class="stat__fig">’05</span>
+        <span class="stat__txt"><strong>Established 2005</strong><span>Two decades of trusted craftsmanship</span></span>
+      </div>
+      <div class="stat">
+        <img class="stat__fig stat__fig--logo" src="assets/igi-logo.png" alt="IGI — International Gemological Institute" loading="lazy" />
+        <span class="stat__txt"><strong>IGI Certified</strong><span>Independently graded diamonds</span></span>
+      </div>
+      <div class="stat">
+        <span class="stat__fig" aria-hidden="true">⚙</span>
+        <span class="stat__txt"><strong>In-House Manufacturing</strong><span>Every step crafted under one roof</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== COLLECTIONS ====================== -->
+<section class="section" id="collections">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div class="sec-head__l">
+        <span class="eyebrow">Catalogue</span>
+        <h2>Our Collections</h2>
+        <p>Twelve categories of fine diamond and gemstone jewellery — each available for wholesale, customization and private label.</p>
+      </div>
+      <a href="#contact" class="tlink">Request Full Catalogue <span class="arr">→</span></a>
+    </div>
+    <div class="cards" id="cardsGrid"><!-- JS fills --></div>
+  </div>
+</section>
+
+<!-- ====================== WHY CHOOSE (dark) ====================== -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="sec-head reveal" style="margin-bottom:clamp(2.4rem,4vw,3.6rem)">
+      <div class="sec-head__l">
+        <span class="eyebrow">Why Ré Jewels</span>
+        <h2 style="font-size:clamp(2rem,3.6vw,3rem); line-height:1.08; white-space:nowrap;">Trusted wholesale partner to the biggest retail houses.</h2>
+      </div>
+    </div>
+    <div class="values" id="valuesGrid"><!-- JS fills --></div>
+  </div>
+</section>
+
+<!-- ====================== CUSTOMIZATION BANNER ====================== -->
+<section class="cta-banner" id="customise">
+  <div class="container cta-banner__inner">
+    <div class="reveal">
+      <span class="eyebrow eyebrow--light">Bespoke · Private Label</span>
+      <h2>Looking for <em>custom designs?</em></h2>
+      <p>We offer end-to-end customization for wholesale buyers — from concept and CAD to certified delivery. Your vision, our craft.</p>
+    </div>
+    <div class="cta-banner__act reveal reveal-d1">
+      <a href="#contact" class="btn btn--gold">Start a Customization Request <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== CONTACT ====================== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="sec-head reveal" style="margin-bottom:clamp(2.4rem,4vw,3.4rem)">
+      <div class="sec-head__l">
+        <span class="eyebrow">Get in Touch</span>
+        <h2>Begin a wholesale enquiry.</h2>
+        <p>Tell us about your business and the collections you are sourcing. Our team responds within one business day.</p>
+      </div>
+    </div>
+    <div class="contact">
+      <!--
+        Enquiry form — delivered by email via Formspree (https://formspree.io).
+        TODO BEFORE GOING LIVE: create a Formspree form that delivers to
+        adj@rejewels.com, then replace YOUR_FORM_ID below with the real form ID.
+        Client-side validation lives in app.js; the actual POST is a fetch() to
+        this action. Field name="" attributes double as the email labels — keep them.
+      -->
+      <form class="form reveal" id="enquiryForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+        <!-- Formspree: email subject line + honeypot spam trap -->
+        <input type="hidden" name="_subject" value="New wholesale enquiry — rejewels.com" />
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden" />
+        <div class="field">
+          <label for="f-name">Name <span class="req">*</span></label>
+          <input type="text" id="f-name" name="name" placeholder="Your full name" required />
+          <span class="field__err">Please enter your name.</span>
+        </div>
+        <div class="field">
+          <label for="f-company">Company <span class="req">*</span></label>
+          <input type="text" id="f-company" name="company" placeholder="Business / store name" required />
+          <span class="field__err">Please enter your company.</span>
+        </div>
+        <div class="field">
+          <label for="f-email">Email <span class="req">*</span></label>
+          <input type="email" id="f-email" name="email" placeholder="you@company.com" required />
+          <span class="field__err">Enter a valid email address.</span>
+        </div>
+        <div class="field">
+          <label for="f-phone">Phone</label>
+          <input type="tel" id="f-phone" name="phone" placeholder="+1 (000) 000-0000" />
+          <span class="field__err">Enter a valid phone number.</span>
+        </div>
+        <div class="field field--full">
+          <label for="f-message">Message <span class="req">*</span></label>
+          <textarea id="f-message" name="message" rows="4" placeholder="Categories of interest, order volume, timeline…" required></textarea>
+          <span class="field__err">Please add a short message.</span>
+        </div>
+        <div class="form__foot">
+          <button type="submit" class="btn btn--gold">Submit Enquiry <span class="arr">→</span></button>
+          <span class="form__note">No prices shown online — quotations on request.</span>
+        </div>
+        <div class="form__error" id="formError" role="alert"></div>
+        <div class="form__success" id="formSuccess" role="status">
+          <span class="ok" aria-hidden="true">✓</span>
+          <span><strong>Thank you.</strong> Your enquiry has reached our Mumbai team — we’ll be in touch within one business day.</span>
+        </div>
+      </form>
+
+      <aside class="contact__info reveal reveal-d1">
+        <div class="info-block">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
+          <div>
+            <h3>Visit the Atelier</h3>
+            <p>602/A Panchratna Building,<br/>Opera House, Mumbai 400&nbsp;004,<br/>Maharashtra, India</p>
+            <a href="https://maps.google.com/?q=Panchratna+Building+Opera+House+Mumbai" target="_blank" rel="noopener" class="tlink map-link">View on Map <span class="arr">→</span></a>
+          </div>
+        </div>
+        <div class="info-block">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m4 6 8 6 8-6"/></svg></span>
+          <div>
+            <h3>Email</h3>
+            <p><a href="mailto:info@rejewels.com">info@rejewels.com</a></p>
+          </div>
+        </div>
+        <div class="info-block">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h3l2 5-2.5 1.5a12 12 0 0 0 5 5L19 13l2 5v3a1 1 0 0 1-1 1A16 16 0 0 1 4 6a1 1 0 0 1 1-2Z"/></svg></span>
+          <div>
+            <h3>Telephone</h3>
+            <p><a href="tel:+912240042828">+91-22-4004 2828</a></p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe title="Ré Jewels location — Opera House, Mumbai" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=72.808%2C18.955%2C72.824%2C18.965&layer=mapnik&marker=18.96%2C72.816"></iframe>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== FOOTER ====================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <img class="footer__logo" src="assets/logo-full-color.png" alt="Ré Jewels — RE Jewels Pvt. Ltd." loading="lazy" />
+        <p class="footer__tag">Fine Jewellery. Trusted Worldwide.</p>
+        <p class="footer__about">Manufacturers, exporters and suppliers of fine diamond and gemstone jewellery for wholesale buyers since 2005. Opera House, Mumbai.</p>
+        <!-- TODO: replace href="#" with the real Facebook / Instagram / LinkedIn profile URLs. -->
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7h2.4l.4-2.8h-2.8V9.4c0-.8.3-1.4 1.5-1.4h1.4V5.5c-.7-.1-1.5-.2-2.3-.2-2.3 0-3.9 1.4-3.9 4v2H8v2.8h2.6V21h2.9Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.6A3.4 3.4 0 1 0 12 15.4 3.4 3.4 0 0 0 12 8.6Zm0 5.6a2.2 2.2 0 1 1 0-4.4 2.2 2.2 0 0 1 0 4.4Zm3.5-5.9a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0ZM18 7.2a3.9 3.9 0 0 0-1.1-2.8A3.9 3.9 0 0 0 14.1 3.3c-1.1-.06-4.3-.06-5.4 0A3.9 3.9 0 0 0 5.9 4.4 3.9 3.9 0 0 0 4.8 7.2c-.06 1.1-.06 4.3 0 5.4.04 1 .3 2 1.1 2.8a3.9 3.9 0 0 0 2.8 1.1c1.1.06 4.3.06 5.4 0a3.9 3.9 0 0 0 2.8-1.1 3.9 3.9 0 0 0 1.1-2.8c.06-1.1.06-4.3 0-5.4Zm-1.4 6.6a2.2 2.2 0 0 1-1.3 1.3c-.9.36-3 .27-4 .27s-3.1.08-4-.27a2.2 2.2 0 0 1-1.3-1.3c-.36-.9-.27-3-.27-4s-.08-3.1.27-4A2.2 2.2 0 0 1 7.3 4.8c.9-.36 3-.27 4-.27s3.1-.08 4 .27a2.2 2.2 0 0 1 1.3 1.3c.36.9.27 3 .27 4s.09 3.1-.27 4Z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 7.5a1.56 1.56 0 1 1 0-3.12 1.56 1.56 0 0 1 0 3.12ZM8.34 19H5.55V9.4h2.8V19ZM18.45 19h-2.79v-4.6c0-1.1-.4-1.85-1.38-1.85-.75 0-1.2.5-1.4 1-.07.17-.09.42-.09.66V19h-2.79s.04-8.7 0-9.6h2.79v1.36c.37-.57 1.03-1.38 2.51-1.38 1.83 0 3.2 1.2 3.2 3.77V19Z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#collections">Catalogue</a></li>
+          <li><a href="#collections">Jewellery Guide</a></li>
+          <li><a href="#customise">Customization</a></li>
+          <li><a href="#why">Career</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Reach Us</h5>
+        <ul>
+          <li><a href="https://maps.google.com/?q=Panchratna+Building+Opera+House+Mumbai" target="_blank" rel="noopener">602/A Panchratna Bldg, Opera House, Mumbai 400 004</a></li>
+          <li><a href="mailto:info@rejewels.com">info@rejewels.com</a></li>
+          <li><a href="tel:+912240042828">+91-22-4004 2828</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Re Jewels Pvt. Ltd. All Rights Reserved.</span>
+      <span class="legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="conflict-free.html">Conflict-Free Policy</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ====================== MOBILE MENU ====================== -->
+<div class="mobile" id="mobileMenu" aria-hidden="true"><!-- JS fills --></div>
+
+<!-- ====================== LIGHTBOX ====================== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Catalogue image viewer" aria-hidden="true">
+  <button class="lightbox__close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lightbox__nav prev" id="lbPrev" aria-label="Previous">‹</button>
+  <img id="lbImg" alt="" />
+  <button class="lightbox__nav next" id="lbNext" aria-label="Next">›</button>
+  <div class="lightbox__cap" id="lbCap"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

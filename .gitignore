@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor / OS cruft
+Thumbs.db
+*.swp
+
+# Design prototype / source reference — kept locally, not part of the deployed site
+Heading Update/
