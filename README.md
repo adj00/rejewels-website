@@ -97,3 +97,4 @@ code** where they live:
   them into the `CAT_IMGS` map in `app.js` to activate them.
 - Catalogue images were re-compressed (quality ~80) for faster loading; originals remain
   untouched in `Heading Update/assets/catalogue/`.
+#for ayush to review 
